@@ -29,5 +29,5 @@ ENV CXX=/usr/local/dpcpp-cuda/bin/clang++
 
 ENV CC=/usr/local/dpcpp-cuda/bin/clang
 
-RUN mkdir /home/examples/ && cd /home/examples/ && git clone https://github.com/codeplaysoftware/SYCL-For-CUDA-Examples.git
+RUN mkdir /home/examples/ && cd /home/examples/ && git clone https://github.com/codeplaysoftware/dpcpp-workshop.git
 
