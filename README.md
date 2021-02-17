@@ -8,5 +8,5 @@ The docker image is based on nvidia/cuda:latest, and requires nvidia-docker to r
 To run the image:
 
 ```
-sudo docker run --gpus all -it ruyman/dpcpp_cuda_examples
+sudo docker run --gpus all -it mehdigoli/dpcpp-workshop:latest
 ```
